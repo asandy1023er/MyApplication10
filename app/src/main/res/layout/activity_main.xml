@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="PAGE 1:"></TextView>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginLeft="10dp"
+       >
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/T1"
+               android:text="寬"></TextView>
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/E1"></EditText>
+       </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/T2"
+            android:text="長"></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/E2"></EditText>
+    </LinearLayout>
+
+
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/R1"
+           android:layout_marginLeft="60dp"
+           android:layout_marginTop="30dp"
+           >
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/RR1"
+               android:text="長方形"></RadioButton>
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/RR2"
+               android:text="三角形"></RadioButton>
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/RR3"
+               android:text="圓形"
+               ></RadioButton>
+       </RadioGroup>
+<Button
+       android:layout_width="160dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:id="@+id/B1"
+       android:text="JUST DO ITTTTTTTT"
+       ></Button>
+       <Button
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:id="@+id/B3"
+           android:text="List show"
+           ></Button>
+   </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
